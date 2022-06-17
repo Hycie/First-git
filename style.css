@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2{
+    text-align: center;
+    text-decoration: none;
+}
+button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+body  {
+    background-color: black
+    
+     
+}
+
+ 
+
+
+.login-form{width: 350px;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    background: lightslategray;
+}
+    
+
+ .login-form h1{
+     font-size: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     margin: 40px 0;
+     color: #fff;
+
+ }  
+ .login-form p{
+     font-size: 20px;
+     margin: 15px 0;
+ }
+
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background: #191919;
+}
+.contact-box{
+    width: 500px;   
+    background-color: lightslategray;
+    
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn{
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 18px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.registration-form{
+    position: relative;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50% -50%);
+    height: 560px;
+    width: 30%;
+    background-color:lightslategray;
+    
+}
+.registration-form h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+}
+.registration-form p{
+    font-size: 16px;
+    margin: 5px 35px;
+    color: #191919;
+}
+.registration-form input{
+    font-size: 14px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0px 35px;
+    
+    
+}
+.registration-form select{
+    font-size: 16px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 35px;
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #191919;
+}
+.registration-form button:hover{
+    color: red;}
+
+.about{
+    width:100% ;
+    padding: 78px 0;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text  {
+    width: 550px;   
+}
+.main {width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.about-text h1{color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+}
+.about-text h5{
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 5px;letter-spacing: 2px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.bbtn{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+}
+.bbtn a{
+    text-decoration: none;
+    color: #fff;
+}
+.bbtn:hover{
+    background: transparent;
+     border-color:#fff;
+     
+}
+.extras{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-content: center;}
+.extras h3{
+    color: #fff;
+}
+.extras ul{
+    color: #fcfc;
+}
+
+    .navbarr ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding: 10px 15px;   
+}
+.navbarr a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #fff;
+}
+a:hover{
+    color: red;
+}
+.navbarr{
+    background-color: lightslategray;
+    padding: auto;
+    margin-bottom: 0;
+}
